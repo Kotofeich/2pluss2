@@ -25,7 +25,7 @@ window.addEventListener('load', () => {
     const arr1 = input1.value.split('');
     const arr2 = input2.value.split('');
     for (let a = 0; a < arr1.length; a += 1) {
-      if (arr1[a] === '.' || arr1[a] === '0' || arr1[a] === '1' || arr1[a] === '2' || arr1[a] === '3' || arr1[a] === '4' || arr1[a] === '5' || arr1[a] === '6' || arr1[a] === '7' || arr1[a] === '8' || arr1[a] === '9') {
+      if (arr1[a] === '-' ||arr1[a] === '.' || arr1[a] === '0' || arr1[a] === '1' || arr1[a] === '2' || arr1[a] === '3' || arr1[a] === '4' || arr1[a] === '5' || arr1[a] === '6' || arr1[a] === '7' || arr1[a] === '8' || arr1[a] === '9') {
 
       } else {
         check1 = false;
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
       }
     }
     for (let a = 0; a < arr2.length; a += 1) {
-      if (arr2[a] === '.' || arr2[a] === '0' || arr2[a] === '1' || arr2[a] === '2' || arr2[a] === '3' || arr2[a] === '4' || arr2[a] === '5' || arr2[a] === '6' || arr2[a] === '7' || arr2[a] === '8' || arr2[a] === '9') {
+      if (arr2[a] === '-' ||arr2[a] === '.' || arr2[a] === '0' || arr2[a] === '1' || arr2[a] === '2' || arr2[a] === '3' || arr2[a] === '4' || arr2[a] === '5' || arr2[a] === '6' || arr2[a] === '7' || arr2[a] === '8' || arr2[a] === '9') {
 
       } else {
         input2.after(div3);
